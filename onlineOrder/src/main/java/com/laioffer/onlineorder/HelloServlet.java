@@ -1,9 +1,14 @@
 package com.laioffer.onlineorder;
 
-import java.io.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.laioffer.onlineorder.entity.Customer;
+import org.apache.commons.io.IOUtils;
+import org.json.JSONObject;
 
-import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
+import java.io.*;
+import javax.servlet.http.*;
+import javax.servlet.annotation.*;
+
 
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {
@@ -14,13 +19,32 @@ public class HelloServlet extends HttpServlet {
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.setContentType("text/html");
+        response.setContentType("application/json");
+        ObjectMapper mapper = new ObjectMapper();
 
-        // Hello
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
-        out.println("</body></html>");
+        Customer customer = new Customer();
+        customer.setEmail("li@gmail.com");
+        customer.setPassword("12333");
+        customer.setFirstName("Yuanfeng");
+        customer.setLastName("Li");
+        customer.setEnabled(true);
+
+        response.getWriter().print(mapper.writeValueAsString(customer));
+    }
+
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        // Read customer information from request body.
+        JSONObject jsonRequest = new JSONObject(IOUtils.toString(request.getReader()));
+        String email = jsonRequest.getString("email");
+
+        // print customer information to IDE console
+        System.out.println("Email is: " + email);
+
+        // return status = ok as response body to the client
+        response.setContentType("application/json");
+        JSONObject jsonResponse = new JSONObject();
+        jsonResponse.put("status", "ok");
+        response.getWriter().print(jsonResponse);
     }
 
     public void destroy() {

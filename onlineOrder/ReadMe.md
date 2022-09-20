@@ -1,4 +1,4 @@
 # Online Order - Read Me
 
-## Tech Stack: 
+## Tech Stack:
 - Java, Javascript, spring boot, tomcat

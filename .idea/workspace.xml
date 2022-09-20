@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84afe220-fd92-48e3-bd7b-e0784fc19bdc" name="Changes" comment="" />
+    <list default="true" id="84afe220-fd92-48e3-bd7b-e0784fc19bdc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/onlineOrder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/onlineOrder/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineOrder/src/main/java/com/laioffer/onlineorder/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/onlineOrder/src/main/java/com/laioffer/onlineorder/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineOrder/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/onlineOrder/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +26,25 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="onlineOrder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="onlineOrder" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663523045392</updated>
       <workItem from="1663523046843" duration="16000" />
+      <workItem from="1663642012574" duration="57000" />
     </task>
     <servers />
   </component>
