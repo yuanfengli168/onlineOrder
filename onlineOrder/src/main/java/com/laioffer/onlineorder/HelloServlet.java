@@ -1,5 +1,7 @@
 package com.laioffer.onlineorder;
 
+import org.json.JSONObject;
+
 import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
@@ -13,15 +15,11 @@ public class HelloServlet extends HttpServlet {
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.setContentType("text/html");
-
-        // Hello
-        PrintWriter out = response.getWriter();
-        String userName = request.getParameter("username");
-        out.println("<html><body>");
-        out.println("<h1>" + message + "</h1>");
-        out.println("<h1>Hello~~~" + userName + "!!!</h1>");
-        out.println("</body></html>");
+        response.setContentType("application/json");
+        JSONObject customer = new JSONObject();
+        customer.put("email", "sun@laioffer.com");
+        customer.put("first_name", "rick");
+        response.getWriter().print(customer);
     }
 
     public void destroy() {
