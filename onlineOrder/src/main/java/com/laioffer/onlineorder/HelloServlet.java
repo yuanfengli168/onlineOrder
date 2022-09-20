@@ -1,5 +1,7 @@
 package com.laioffer.onlineorder;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.laioffer.onlineorder.entity.Customer;
 import org.apache.commons.io.IOUtils;
 import org.json.JSONObject;
 
@@ -18,10 +20,16 @@ public class HelloServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("application/json");
-        JSONObject customer = new JSONObject();
-        customer.put("email", "sun@laioffer.com");
-        customer.put("first_name", "rick");
-        response.getWriter().print(customer);
+        ObjectMapper mapper = new ObjectMapper();
+
+        Customer customer = new Customer();
+        customer.setEmail("li@gmail.com");
+        customer.setPassword("12333");
+        customer.setFirstName("Yuanfeng");
+        customer.setLastName("Li");
+        customer.setEnabled(true);
+
+        response.getWriter().print(mapper.writeValueAsString(customer));
     }
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
