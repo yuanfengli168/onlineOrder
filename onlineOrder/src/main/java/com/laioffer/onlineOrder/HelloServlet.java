@@ -1,7 +1,7 @@
-package com.laioffer.onlineorder;
+package com.laioffer.onlineOrder;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.laioffer.onlineorder.entity.Customer;
+import com.laioffer.onlineOrder.entity.Customer;
 import org.apache.commons.io.IOUtils;
 import org.json.JSONObject;
 
