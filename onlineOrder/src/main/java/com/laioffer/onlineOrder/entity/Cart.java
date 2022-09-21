@@ -1,8 +1,7 @@
 package com.laioffer.onlineOrder.entity;
 
-import org.hibernate.annotations.Generated;
-
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name="cart")
@@ -13,6 +12,9 @@ public class Cart {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int Id;
+
+    @OneToMany(mappedBy = "cart", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private List<OrderItem> orderItemList;
 
     private double totalPrice;
 
@@ -30,5 +32,13 @@ public class Cart {
 
     public void setTotalPrice(double totalPrice) {
         this.totalPrice = totalPrice;
+    }
+
+    public List<OrderItem> getOrderItemList() {
+        return orderItemList;
+    }
+
+    public void setOrderItemList(List<OrderItem> orderItemList) {
+        this.orderItemList = orderItemList;
     }
 }
