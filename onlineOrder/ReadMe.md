@@ -9,3 +9,9 @@
 
 ## Postman Testing urls: 
 - For lesson 12: https://www.getpostman.com/collections/7a6acb9fdbe3694da8f0
+
+## Frontend Part: 
+- https://github.com/yuanfengli168/doordash-app
+
+## Final Demo on Youtube: 
+- https://youtu.be/_xQ_wZvpF58
