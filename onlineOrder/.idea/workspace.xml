@@ -10,16 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47f1414a-f9ea-49c4-965f-930511b32d64" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/onlineOrder_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/onlineOrder_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d255e4ca-5c0d-4e9e-8538-c9d44a34d677.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d255e4ca-5c0d-4e9e-8538-c9d44a34d677.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/entity/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/entity/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/entity/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/entity/MenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/entity/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/entity/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/entity/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +61,8 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "SQL Dialects"
+    "settings.editor.selected.configurable": "Settings.JavaScript",
+    "spring.configuration.checksum": "bb946ecd6429a52e68f5bc001dba9e6c"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -176,6 +168,8 @@
       <option name="presentableId" value="Default" />
       <updated>1663642751485</updated>
       <workItem from="1663642752854" duration="3951000" />
+      <workItem from="1663813219913" duration="611000" />
+      <workItem from="1664555675684" duration="4771000" />
     </task>
     <servers />
   </component>
