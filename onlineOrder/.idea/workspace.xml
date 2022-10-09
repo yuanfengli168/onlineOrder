@@ -10,8 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47f1414a-f9ea-49c4-965f-930511b32d64" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/controller/CheckoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/laioffer/onlineOrder/controller/CheckoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +169,7 @@
       <updated>1663642751485</updated>
       <workItem from="1663642752854" duration="3951000" />
       <workItem from="1663813219913" duration="611000" />
-      <workItem from="1664555675684" duration="4450000" />
+      <workItem from="1664555675684" duration="4771000" />
     </task>
     <servers />
   </component>
